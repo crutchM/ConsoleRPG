@@ -1,21 +1,10 @@
 using System;
+using System.Collections.Generic;
+using rpg;
 
-public class Player
-{
-
-    private string Class;
-
-    public readonly string Name;
-    public double HP {get; private set;}
-
-    public double MaxHP {get; private set;}
-
-    public double MP {get; private set;}
-
-    public int Strenght {get; private set;}
-
-    public int Gold {get; private set;}
-
+public class Player : IEntity
+{    
+    public List<Item> inventory { get; private set; } = new List<Item>();
     public Player(string name, string playerClass)
     {
         Name = name;

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\sergs\\.nuget\\packages\\": {}
+    "/home/cruthcm/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
+      "projectUniqueName": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
       "projectName": "rpg",
-      "projectPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
-      "packagesPath": "C:\\Users\\sergs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\obj\\",
+      "projectPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
+      "packagesPath": "/home/cruthcm/.nuget/packages/",
+      "outputPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sergs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/cruthcm/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\sergs\\.dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }
