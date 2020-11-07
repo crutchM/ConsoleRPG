@@ -1,0 +1,246 @@
+Index: obj/rpg.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"format\": 1,\n  \"restore\": {\n    \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\": {}\n  },\n  \"projects\": {\n    \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\": {\n      \"version\": \"1.0.0\",\n      \"restore\": {\n        \"projectUniqueName\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\",\n        \"projectName\": \"rpg\",\n        \"projectPath\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\",\n        \"packagesPath\": \"C:\\\\Users\\\\sergs\\\\.nuget\\\\packages\\\\\",\n        \"outputPath\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\obj\\\\\",\n        \"projectStyle\": \"PackageReference\",\n        \"configFilePaths\": [\n          \"C:\\\\Users\\\\sergs\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\"\n        ],\n        \"originalTargetFrameworks\": [\n          \"netcoreapp3.1\"\n        ],\n        \"sources\": {\n          \"https://api.nuget.org/v3/index.json\": {}\n        },\n        \"frameworks\": {\n          \"netcoreapp3.1\": {\n            \"projectReferences\": {}\n          }\n        },\n        \"warningProperties\": {\n          \"warnAsError\": [\n            \"NU1605\"\n          ]\n        }\n      },\n      \"frameworks\": {\n        \"netcoreapp3.1\": {\n          \"imports\": [\n            \"net461\",\n            \"net462\",\n            \"net47\",\n            \"net471\",\n            \"net472\",\n            \"net48\"\n          ],\n          \"assetTargetFallback\": true,\n          \"warn\": true,\n          \"frameworkReferences\": {\n            \"Microsoft.NETCore.App\": {\n              \"privateAssets\": \"all\"\n            }\n          },\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Users\\\\sergs\\\\.dotnet\\\\sdk\\\\3.1.301\\\\RuntimeIdentifierGraph.json\"\n        }\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- obj/rpg.csproj.nuget.dgspec.json	(revision a30c28d9779ba69474fe7c95b97b1e4683abc2da)
++++ obj/rpg.csproj.nuget.dgspec.json	(date 1604730295076)
+@@ -1,20 +1,20 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj": {}
++    "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj": {
++    "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
++        "projectUniqueName": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
+         "projectName": "rpg",
+-        "projectPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
+-        "packagesPath": "C:\\Users\\sergs\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\obj\\",
++        "projectPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
++        "packagesPath": "/home/cruthcm/.nuget/packages/",
++        "outputPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/obj/",
+         "projectStyle": "PackageReference",
+         "configFilePaths": [
+-          "C:\\Users\\sergs\\AppData\\Roaming\\NuGet\\NuGet.Config"
++          "/home/cruthcm/.nuget/NuGet/NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "netcoreapp3.1"
+@@ -50,7 +50,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Users\\sergs\\.dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: obj/rpg.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\sergs\\.nuget\\packages\\</NuGetPackageFolders>\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">5.3.0</NuGetToolVersion>\n  </PropertyGroup>\n  <PropertyGroup>\n    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>\n  </PropertyGroup>\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- obj/rpg.csproj.nuget.g.props	(revision a30c28d9779ba69474fe7c95b97b1e4683abc2da)
++++ obj/rpg.csproj.nuget.g.props	(date 1604730295984)
+@@ -4,10 +4,10 @@
+     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\sergs\.nuget\packages\</NuGetPackageFolders>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/cruthcm/.nuget/packages/</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/cruthcm/.nuget/packages/</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.3.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+   </PropertyGroup>
+   <PropertyGroup>
+     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+Index: Player.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\n\npublic class Player\n{\n\n    private string Class;\n\n    public readonly string Name;\n    public double HP {get; private set;}\n\n    public double MaxHP {get; private set;}\n\n    public double MP {get; private set;}\n\n    public int Strenght {get; private set;}\n\n    public int Gold {get; private set;}\n\n    public Player(string name, string playerClass)\n    {\n        Name = name;\n        SetStartCharacteristics(playerClass);\n    }\n\n    private void SetStartCharacteristics(string cl)\n    {\n        switch (cl)\n        {\n            case \"mage\":\n                HP = 100;\n                MP = 150;\n                MaxHP = 100;\n                Strenght = 10;\n                Gold = 100;\n                break;\n            case \"barbarian\":\n                HP = 150;\n                MP = 30;\n                MaxHP = 150;\n                Strenght = 40;\n                Gold = 100;\n                break;\n            case \"thief\":\n                HP = 70;\n                MP = 80;\n                MaxHP = 70;\n                Strenght = 20;\n                Gold = 200;\n                break;\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Player.cs	(revision a30c28d9779ba69474fe7c95b97b1e4683abc2da)
++++ Player.cs	(date 1604565493502)
+@@ -1,11 +1,12 @@
+ using System;
+ 
+-public class Player
++public class Player 
+ {
+ 
+     private string Class;
+ 
+     public readonly string Name;
++
+     public double HP {get; private set;}
+ 
+     public double MaxHP {get; private set;}
+Index: obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"version\": 3,\n  \"targets\": {\n    \".NETCoreApp,Version=v3.1\": {}\n  },\n  \"libraries\": {},\n  \"projectFileDependencyGroups\": {\n    \".NETCoreApp,Version=v3.1\": []\n  },\n  \"packageFolders\": {\n    \"C:\\\\Users\\\\sergs\\\\.nuget\\\\packages\\\\\": {}\n  },\n  \"project\": {\n    \"version\": \"1.0.0\",\n    \"restore\": {\n      \"projectUniqueName\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\",\n      \"projectName\": \"rpg\",\n      \"projectPath\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\rpg.csproj\",\n      \"packagesPath\": \"C:\\\\Users\\\\sergs\\\\.nuget\\\\packages\\\\\",\n      \"outputPath\": \"C:\\\\Users\\\\sergs\\\\RiderProjects\\\\proj\\\\ConsoleRPG\\\\rpg\\\\obj\\\\\",\n      \"projectStyle\": \"PackageReference\",\n      \"configFilePaths\": [\n        \"C:\\\\Users\\\\sergs\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\"\n      ],\n      \"originalTargetFrameworks\": [\n        \"netcoreapp3.1\"\n      ],\n      \"sources\": {\n        \"https://api.nuget.org/v3/index.json\": {}\n      },\n      \"frameworks\": {\n        \"netcoreapp3.1\": {\n          \"projectReferences\": {}\n        }\n      },\n      \"warningProperties\": {\n        \"warnAsError\": [\n          \"NU1605\"\n        ]\n      }\n    },\n    \"frameworks\": {\n      \"netcoreapp3.1\": {\n        \"imports\": [\n          \"net461\",\n          \"net462\",\n          \"net47\",\n          \"net471\",\n          \"net472\",\n          \"net48\"\n        ],\n        \"assetTargetFallback\": true,\n        \"warn\": true,\n        \"frameworkReferences\": {\n          \"Microsoft.NETCore.App\": {\n            \"privateAssets\": \"all\"\n          }\n        },\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Users\\\\sergs\\\\.dotnet\\\\sdk\\\\3.1.301\\\\RuntimeIdentifierGraph.json\"\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- obj/project.assets.json	(revision a30c28d9779ba69474fe7c95b97b1e4683abc2da)
++++ obj/project.assets.json	(date 1604730296016)
+@@ -8,19 +8,19 @@
+     ".NETCoreApp,Version=v3.1": []
+   },
+   "packageFolders": {
+-    "C:\\Users\\sergs\\.nuget\\packages\\": {}
++    "/home/cruthcm/.nuget/packages/": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
++      "projectUniqueName": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
+       "projectName": "rpg",
+-      "projectPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\rpg.csproj",
+-      "packagesPath": "C:\\Users\\sergs\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\sergs\\RiderProjects\\proj\\ConsoleRPG\\rpg\\obj\\",
++      "projectPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/rpg.csproj",
++      "packagesPath": "/home/cruthcm/.nuget/packages/",
++      "outputPath": "/home/cruthcm/Документы/ConsoleRPG/rpg/obj/",
+       "projectStyle": "PackageReference",
+       "configFilePaths": [
+-        "C:\\Users\\sergs\\AppData\\Roaming\\NuGet\\NuGet.Config"
++        "/home/cruthcm/.nuget/NuGet/NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "netcoreapp3.1"
+@@ -56,7 +56,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Users\\sergs\\.dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: enemy.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- enemy.cs	(date 1604565493502)
++++ enemy.cs	(date 1604565493502)
+@@ -0,0 +1,9 @@
++using System;
++
++namespace rpg
++{
++    class Enemy
++    {
++
++    }
++}
+\ No newline at end of file
+Index: entity.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- entity.cs	(date 1604730385566)
++++ entity.cs	(date 1604730385566)
+@@ -0,0 +1,22 @@
++using System;
++namespace rpg
++{
++    abstract class IEntity
++    {
++        private string Class;
++
++        public readonly string Name;
++        
++        public double HP {get; private set;}
++
++        public double MaxHP {get; private set;}
++
++        public double MP {get; private set;}
++
++        public int Strenght {get; private set;}
++
++        public int Gold {get; private set;}
++
++    }
++}
++    
+Index: Items.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\nusing System.Collections.Generic;\n\nclass Item\n{\n    public string Name{get; private set; }\n    \n    public readonly Dictionary<string, int> Characteristics = new Dictionary<string, int>();\n\n    public Item(string name, List<string> charasteristics, List<int> count) \n    {\n        Name = name;\n        AddAllCharasteristics(charasteristics, count);\n    }  \n\n    private void AddAllCharasteristics(List<string> charasteristics, List<int> count)\n    {\n        if(charasteristics.Count != count.Count)\n            throw new Exception();\n        else\n         for(int i = 0; i < charasteristics.Count; i++)\n            Characteristics.Add(charasteristics[i], count[i]);\n    }\n\n   \n    \n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Items.cs	(revision a30c28d9779ba69474fe7c95b97b1e4683abc2da)
++++ Items.cs	(date 1604565493502)
+@@ -1,28 +1,30 @@
+ using System;
+ using System.Collections.Generic;
+-
+-class Item
+-{
+-    public string Name{get; private set; }
+-    
+-    public readonly Dictionary<string, int> Characteristics = new Dictionary<string, int>();
++namespace rpg
++{
++    class Item
++    {
++        public string Name{get; private set; }
++        
++        public readonly Dictionary<string, int> Characteristics = new Dictionary<string, int>();
+ 
+-    public Item(string name, List<string> charasteristics, List<int> count) 
+-    {
+-        Name = name;
+-        AddAllCharasteristics(charasteristics, count);
+-    }  
++        public Item(string name, List<string> charasteristics, List<int> count) 
++        {
++            Name = name;
++            AddAllCharasteristics(charasteristics, count);
++        }  
+ 
+-    private void AddAllCharasteristics(List<string> charasteristics, List<int> count)
+-    {
+-        if(charasteristics.Count != count.Count)
+-            throw new Exception();
+-        else
+-         for(int i = 0; i < charasteristics.Count; i++)
+-            Characteristics.Add(charasteristics[i], count[i]);
+-    }
++        private void AddAllCharasteristics(List<string> charasteristics, List<int> count)
++        {
++            if(charasteristics.Count != count.Count)
++                throw new Exception();
++            else
++            for(int i = 0; i < charasteristics.Count; i++)
++                Characteristics.Add(charasteristics[i], count[i]);
++        }
+ 
+-   
+-    
++    
++        
+ 
++    }
+ }
+\ No newline at end of file
