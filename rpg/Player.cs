@@ -5,6 +5,7 @@ using rpg;
 public class Player : IEntity
 {    
     public List<Item> inventory { get; private set; } = new List<Item>();
+    public List<Item> equipedItems { get; private set; } = new List<Item>(); 
     public Player(string name, string playerClass)
     {
         Name = name;
